@@ -1,6 +1,6 @@
 <template>
   <q-page class="text-center q-pa-md">
-    <div class="row items-center text-center justify-center">
+    <div class="row items-center text-center justify-center q-mb-lg">
       <div class="col-2">
         <q-select
           v-model="filteredStore"
@@ -33,10 +33,9 @@
       </div>
 
     </div>
-    <div class="row items-center text-center justify-center">
+    <div class="row items-center text-center justify-center q-mt-lg">
       <div class="col-4">
         <q-table
-          title="Treats"
           :rows="rawProduct"
           :columns="columns"
           dense
