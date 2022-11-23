@@ -23,13 +23,15 @@
   "dependencies": {
     "@quasar/extras": "^1.0.0",
     "axios": "^0.21.1",
+    "chart.js": "^4.0.1",
     "core-js": "^3.6.5",
+    "d3": "^5.7.0",
+    "lodash": "^4.17.11",
     "quasar": "^2.6.0",
     "vue": "^3.0.0",
+    "vue-chartjs": "^4.1.2",
     "vue-router": "^4.0.0",
-    "vuex": "^4.0.1",
-    "d3": "^5.7.0",
-    "lodash": "^4.17.11"
+    "vuex": "^4.0.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.13.14",

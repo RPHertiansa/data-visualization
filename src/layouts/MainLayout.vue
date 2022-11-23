@@ -5,10 +5,10 @@
         <q-toolbar-title>
           <q-icon
             class="q-mr-sm"
-            name="sports_soccer"
+            name="leaderboard"
             size="36px"
           />
-          Football App
+          Data Visualization
         </q-toolbar-title>
       </q-toolbar>
     </q-header>

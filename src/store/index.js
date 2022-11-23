@@ -1,6 +1,5 @@
 import { store } from "quasar/wrappers";
 import { createStore } from "vuex";
-import football from "./football";
 // import example from './module-example'
 
 /*
@@ -14,9 +13,7 @@ import football from "./football";
 
 export default store(function (/* { ssrContext } */) {
   const Store = createStore({
-    modules: {
-      football
-    },
+    modules: {},
 
     // enable strict mode (adds overhead!)
     // for dev mode and --debug builds only
